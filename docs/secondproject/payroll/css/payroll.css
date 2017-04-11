@@ -1,0 +1,21 @@
+body{
+    font-family: 'Dosis', sans-serif;
+}
+.wrapper{
+    width: 60%;
+   display: block;
+   margin: 0 auto;
+}
+h1{
+    color: #EC6D62;
+}
+form{
+    background-color: #E0D6CB;
+    padding: 25px;
+	margin: 50px 0;
+}
+.logo{
+   
+    display: block;
+   margin: 0 auto;
+}
