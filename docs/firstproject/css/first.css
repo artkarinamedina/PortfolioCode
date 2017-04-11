@@ -34,7 +34,7 @@ nav ul {
     padding: 0;
 }
 .wrapper{
-    width: 60%;
+    width: 53%;
    display: block;
    margin: 0 auto;
 }
@@ -42,8 +42,9 @@ nav ul {
     padding-top: 30px;
      border-bottom: 1px solid #636363;
 }
-
-
+.sample{
+    width: 100%
+}
 
 
 nav li {
