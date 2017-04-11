@@ -1,0 +1,106 @@
+* {
+	-moz-box-sizing: border-box;
+	-webkit-box-sizing: border-box;
+	box-sizing: border-box;
+}
+
+body {
+	font-family: 'Varela Round', sans-serif;
+}
+
+.name {
+	font-family: 'Varela Round', sans-serif;
+}
+.main-nav{
+	padding-left: 0
+}
+
+.name a,
+.main-nav a {
+	text-align: center;
+	display: block;
+	padding: 10px 0;
+	text-decoration: none;
+	color: black;
+}
+
+.main-nav a:hover {
+	color: black;
+}
+
+.main-nav li {
+	list-style-type: none;
+}
+
+.tiger {
+	width: 100%;
+}
+
+.banner {
+	text-align: center;
+}
+
+.col {
+	padding-right: 1em;
+	padding-left: 1em;
+}
+
+.main-footer {
+	padding: 2em 0;
+	margin-top: 30px;
+	text-align: center;
+}
+
+.rose {
+	width: 50%;
+}
+
+@media (min-width: 769px) {
+	.container {
+		width: 100%;
+		margin: 0 auto;
+	}
+	
+	.name,
+	.col {
+		float: left;
+	}
+	
+	.primary,
+	.secondary {
+		width: 50%;
+	}
+	
+	.main-nav {
+		float: right;
+	}
+	
+	.main-nav li {
+		display: inline-block;
+		margin-left: 15px;
+	}
+	
+	.clearfix::after {
+		content: " ";
+		display: table;
+		clear: both;
+	}
+}
+
+@media (min-width: 1025px) {
+	
+	.container {
+		width: 80%;
+		max-width: 1150px;
+	}
+	
+	.primary {
+		text-align: center;
+		width: 40%;
+	}
+	
+	.secondary,
+	.tertiary {
+		width: 30%;
+	}
+}
