@@ -35,7 +35,7 @@ nav ul {
 }
 /* centers*/
 .wrapper{
-    width: 60%;
+    width: 53%;
    display: block;
    margin: 0 auto;
 }
@@ -44,7 +44,9 @@ nav ul {
      border-bottom: 1px solid #636363;
 }
 
-
+.sample{
+    width:100%;
+}
 
 
 nav li {
