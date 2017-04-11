@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pay Roll</title>
+    <link rel="icon" href="image/stability.ico"/>
+    <link href="https://fonts.googleapis.com/css?family=Dosis" rel="stylesheet">
+    <link rel="stylesheet" href="css/payroll.css">
+</head>
+
+<body>
+    <div class="wrapper">
+        <img class="logo" src="image/stability.png" alt="logo">
+        <form>
+            <h1>Employee Pay Roll</h1>
+            <p>What is the employee's name?</p><br>
+            <input id= 'name' type='input' name='name'/><br>
+            <p>What is the employee's hours worked?</p><br>
+            <input id='hours' type='input' name='hour' /><br>
+            <p>Whats is the employee's hour per pay</p>
+            <input id='perhour' type='text' name='per'/>
+            <p>What is the tax rate of the employess,enter without '%' sign(Single 22 percent or Family 18 percent)</p>
+            <input id='taxrate' type='text' name='rate'/>%<br>
+            <p></p>
+            <input id='btn' type='button' name='submit' value='submit'/><br>
+            <p id='employee-name'></p>
+            <p id='gross-pay'></p>
+            <p id='over-time'></p>
+            <p id="total"></p>
+            <p id='tax-amount'></p>
+            <p id='net-pay'></p>
+        </form>
+    </div>
+<script type="text/javascript" src="js/payroll.js"></script>    
+</body>
+
+</html>
