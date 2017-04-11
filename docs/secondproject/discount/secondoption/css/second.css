@@ -1,0 +1,25 @@
+body{
+    font-family: 'Lato', sans-serif;
+}
+.content{
+    text-align: center;
+}
+h2{
+    color:#2EB3A6;
+}
+.square{
+    display:inline-block;
+    width:150px;
+    height: 200px;
+    box-sizing: border-box;
+	vertical-align: top;
+	overflow: hidden;
+	color:white;
+	text-align: center;
+	background-color: #7d7d7d;
+	border-radius:6px ;
+	
+}
+.square:hover{
+    background-color: #2EB3A6;
+}
