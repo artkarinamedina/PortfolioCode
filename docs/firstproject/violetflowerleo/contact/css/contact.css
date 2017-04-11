@@ -1,0 +1,113 @@
+* {
+	-moz-box-sizing: border-box;
+	-webkit-box-sizing: border-box;
+	box-sizing: border-box;
+}
+
+body {
+	font-family: 'Varela Round', sans-serif;
+}
+
+.name {
+	font-family: 'Varela Round', sans-serif;
+}
+/*navigation layout*/
+.name a,
+.main-nav a {
+	text-align: center;
+	display: block;
+	padding: 10px 15px;
+	text-decoration: none;
+	color: black;
+}
+
+.main-nav a:hover {
+	color: black;
+}
+
+.main-nav li {
+	list-style-type: none;
+}
+/*contact form*/
+.content{
+	max-width: 400px;
+	width:100%;
+	margin:0 auto;
+}
+
+#contact{
+	background-color: #E0D6CB;
+	padding: 25px;
+	margin: 50px 0;
+	
+}
+#contact h3{
+	margin: 5px 0 15px;
+}
+#contact input[type="text"], 
+#contact input[type="email"], 
+#contact input[type="tel"], 
+#contact input[type="url"], 
+#contact textarea {
+	width:100%;
+	padding:10px;
+}
+#contact textarea{
+	resize: none;
+	height: 100px;
+	max-width: 100%;
+}
+#contact button{
+	cursor: pointer;
+	width:100%;
+	border:none;
+	background-color: #e4abff;
+	padding: 10px;
+	
+}
+fieldset{
+	min-width: 100%;
+	width: 100%;
+	border: none;
+}
+
+
+.main-footer {
+	padding: 2em 0;
+	margin-top: 30px;
+	clear: both;
+	text-align: center;
+}
+
+@media (min-width: 769px) {
+	.container {
+		width: 100%;
+		margin: 0 auto;
+	}
+	
+	.name {
+		float: left;
+	}
+	.main-nav {
+		float: right;
+	}
+	
+	.main-nav li {
+		display: inline-block;
+		margin-left: 15px;
+	}
+	
+	.clearfix::after {
+		content: " ";
+		display: table;
+		clear: both;
+	}
+}
+/*reponsive*/
+@media (min-width: 1025px) {
+	
+	.container {
+		width: 80%;
+		max-width: 1150px;
+	}
+}
