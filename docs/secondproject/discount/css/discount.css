@@ -1,0 +1,43 @@
+.content{
+    text-align: center;
+}
+/*layout for the squares*/
+.square{
+    display:inline-block;
+    width:150px;
+    height: 200px;
+    box-sizing: border-box;
+	vertical-align: top;
+	overflow: hidden;
+	color:white;
+	text-align: center;
+	background-color: #7d7d7d;
+	border-radius:6px ;
+	
+}
+.result{
+    text-align:center;
+}
+#answer{
+    font-size:40px;
+}
+h1,h2{
+    font-family: 'Oswald', sans-serif;
+    text-align: center;
+}
+
+
+.square:hover{
+    background-color: #afe2ea;
+     cursor: pointer;
+}
+#yes{
+    display: none;
+}
+ .active{
+     display: inline-block;
+ }
+
+
+
+
