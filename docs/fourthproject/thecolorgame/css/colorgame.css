@@ -1,0 +1,56 @@
+body{
+    background-color: #808080;
+    margin: 0;
+}
+header{
+    background-color: #88dfe0;
+    margin: 0;
+   
+}
+
+.whole{
+    text-align: center;
+}
+
+#displayRGB{
+    font-size:50px;
+}
+.nav{
+    background-color: white;
+}
+ul{
+    list-style-type: none;
+    
+}
+li{
+display: inline-block;
+ 
+ }
+
+#try{
+    text-align:center;
+    
+}
+
+#shapes{
+    text-align: center;
+    max-width: 50%;
+    margin: auto;
+    
+}
+.square{
+    display: inline-block;
+	background-color: #d1a2e7;
+	border-radius: 6px;
+	height: 170px;
+	width:200px;
+	box-sizing: border-box;
+
+
+}
+
+#easy, #hard{
+    cursor: pointer;
+    
+}
+
