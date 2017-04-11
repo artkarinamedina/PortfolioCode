@@ -1,0 +1,115 @@
+html {
+    box-sizing: border-box;
+}
+
+*,
+*:before,
+*:after {
+    box-sizing: inherit;
+}
+h1{
+   font-family: 'Droid Sans', sans-serif;
+    
+}
+header {
+    margin-top: 20px;
+  
+}
+
+nav ul {
+    margin: 0;
+    padding: 0;
+    list-style-type: none;
+     background-color: #fcae9a;
+}
+nav li:first-child{
+    background-color:#fff09c;
+}
+
+nav a {
+    display: block;
+    margin-bottom: 10px;
+    padding: 10px 0;
+    text-align: center;
+    text-decoration: none;
+    color: black;
+}
+
+nav a:hover {
+    color: #7307E5;
+}
+
+.pink {
+    width: 150px;
+   display: block;
+    margin: 0 auto; 
+}
+#aware{
+   
+    text-align: center;
+    font-family: 'Droid Sans', sans-serif;
+    font-size: 200%;
+    font-weight: bold;
+    
+    
+}
+
+
+.wrapper {
+    width: 90%;
+    margin: 0 auto;
+}
+
+.tiger {
+    width: 300px;
+}
+
+.footer-container {
+    padding: 2em 0;
+    margin-top: 90px;
+}
+
+@media only screen and (min-width: 875px) {
+    nav {
+        float: right;
+        width: 600px;
+        
+        
+    }
+    header{
+        margin-left: 30px;
+    }
+    nav a {
+       
+        float: left;
+        padding-right: 20px;
+        
+    }
+    .main article {
+        float: left;
+        width: 57%;
+    }
+    .main aside {
+        float: right;
+    }
+ .pink {
+    width: 150px;
+   display: inline-block;
+     
+}
+ 
+}
+
+.clearfix:before,
+.clearfix:after {
+    content: " ";
+    display: table;
+}
+
+.clearfix:after {
+    clear: both;
+}
+
+.clearfix {
+    *zoom: 1;
+}
